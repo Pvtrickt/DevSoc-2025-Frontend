@@ -1,0 +1,1 @@
+This is my application for the DevSoc 2025 Subcom Recruitment for Frontend 
