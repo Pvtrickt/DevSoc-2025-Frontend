@@ -3,7 +3,7 @@ interface MiniButton {
   bgColor?: string;
 }
 
-const MiniButton = ({ icon, bgColor }: MiniButton) => {
+const MiniButton: React.FC<MiniButton> = ({ icon, bgColor }) => {
   return (
     // template for mini btns
     <button

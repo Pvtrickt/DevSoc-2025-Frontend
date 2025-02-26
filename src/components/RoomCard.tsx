@@ -4,7 +4,11 @@ interface CardProps {
   rooms_available: number;
 }
 
-const Card = ({ name, building_picture, rooms_available }: CardProps) => {
+const Card: React.FC<CardProps> = ({
+  name,
+  building_picture,
+  rooms_available,
+}) => {
   return (
     <div>
       {/* displays room card for phone screens */}
